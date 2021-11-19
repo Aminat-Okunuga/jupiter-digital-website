@@ -62,22 +62,22 @@ ul{
 #email-marketing{
     background-color: rgb(24, 24, 24);
     color: #fff;
-    width: 300px;
-    padding: 20px;
+    width: 530px;
+    padding: 100px 50px 100px 50px;
     /* margin-right: 2px;  */
 }
 #market-analysis{
     background-color: rgb(243, 79, 79);
     color: #fff;
-    width: 300px;
-    padding: 20px;
+    width: 530px;
+    padding: 100px 50px 100px 50px;
     /* margin-right: 2px; */
 }
 #keyword-research{
     background-color: rgb(28, 27, 27);
     color: #fff;
-    width: 300px;
-    padding: 20px;
+    width: 530px;
+    padding: 100px 50px 100px 50px;
     /* margin-left: 2px; */
 }
 .third-container{
@@ -85,4 +85,47 @@ ul{
 }
 #fourth-container{
     background-color: #585656;
+}
+.services{
+    border-radius: 500px 0px 0px 500px;
+}
+.what-we-do{
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+    width: 530px;
+    padding: 30px 90px 30px 90px;
+}
+.arrow{
+    margin-left: 5rem;
+}
+#fifth-container{
+    /* padding: 1rem; */
+    margin-top: 100px;
+}
+#sixth-container{
+    margin-top: 90px;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 40px;
+}
+.text{
+    background-color: darkgray;
+    width: 400px;
+    /* height: 300px; */
+}
+#recent-project{
+    margin-left: 50px;
+}
+.footer{
+    background-color: black;
+    padding: 90px;
+    color: white;
+    line-height: 2.5rem;
+    margin-top: 50px;
+}
+.foot-link h4 ul li a{
+    text-decoration: none;
 }
