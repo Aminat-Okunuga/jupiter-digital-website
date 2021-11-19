@@ -125,7 +125,14 @@ h3{
     color: white;
     line-height: 2.5rem;
     margin-top: 50px;
+    margin-bottom: 10px;
 }
 .foot-link h4 ul li a{
     text-decoration: none;
+}
+#horizontal-rule{
+    margin-top: 150px;
+}
+#foot-text{
+    color: rgb(255, 255, 255);
 }
