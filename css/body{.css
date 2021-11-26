@@ -1,10 +1,7 @@
 body{
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
 }
-* {
-    box-sizing: border-box;
-  }
 body a{
     text-decoration: none;
     color: #fff;
@@ -64,10 +61,6 @@ ul.topnav li a.active {
     ul.topnav navbar image-right, 
     ul.topnav li {float: none;}
   }
-@media screen and (max-width: 400px) {
-    ul.topnav navbar image-right, 
-    ul.topnav li {float: none;}
-  }
 
 
 /* ul{
@@ -103,13 +96,9 @@ ul{
 #banner img{
     width: 100%;
 }
-.banner-section{
-    width: 100%;
-}
 .second-container{
     background-color: #585656;
     padding: 67px;
-    width: 100%;
 }
 #second-container{
     display: flex;
@@ -127,7 +116,6 @@ ul{
 } */
 #email-marketing{
     background-color: rgb(24, 24, 24);
-    /* width: 25%; */
 }
 #market-analysis{
     background-color: rgb(243, 79, 79);
@@ -139,7 +127,7 @@ ul{
     padding: 40px;
 }
 #fourth-container{
-    /* background-color: #585656; */
+    background-color: #585656;
 }
 .services{
     border-radius: 500px 0px 0px 500px;
@@ -147,15 +135,9 @@ ul{
 .what-we-do{
     background-color: rgb(24, 24, 24);
     color: #fff;
-    /* width: 330px; */
-    width: 100%;
+    width: 330px;
     /* padding: 30px 90px 30px 90px; */
     padding: 25px 25px 25px 25px;
-}
-@media screen and (max-width:600px) {
-    .what-we-do{
-        margin-top: 8%;
-    }
 }
 .arrow{
     margin-left: 5rem;
@@ -190,7 +172,6 @@ h3{
     line-height: 2.5rem;
     margin-top: 50px;
     margin-bottom: 10px;
-    width: 100%;
 }
 .foot-link h4 ul li a{
     text-decoration: none;
@@ -204,46 +185,3 @@ h3{
     margin-left: 40px;
     margin-right: 20px;
 }
-
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
-
-
-/* For mobile phones: */
-/* [class*="col-"] {
-    width: 100%;
-  } */
-  
-  /* @media only screen and (min-width: 768px) { */
-    /* For desktop: */
-    /* .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  } */

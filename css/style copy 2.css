@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar{
+    background-color: #E62E64;
+    padding: 13px;
+    text-align: center;
+    width: 100%;
+}
+#nav-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+#menu-column{
+    display: inline;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+#menu-column ul li{
+    display: inline;
+}
+#menu-column ul li a{
+    
+    color: aliceblue;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+#list-block{
+    padding: 5px;
+    margin-top: 8px;
+}
+#list-block li{
+    padding-left: 80px;
+}
+/* responsiveness */
+@media screen and (max-width: 600px) {
+    ul.topnav navbar image-right, 
+    ul.topnav li {float: none;}
+  }
+
+#banner img{
+    width: 100%;
+}
+.second-container{
+    background-color: #585656;
+    padding: 67px;
+}
+#second-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.second-div-box{
+    width: 400px;
+    padding: 90px 50px 100px 50px;
+    color: #fff;
+}
+#email-marketing{
+    background-color: rgb(24, 24, 24);
+}
+#market-analysis{
+    background-color: rgb(243, 79, 79);
+}
+#keyword-research{
+    background-color: rgb(28, 27, 27);
+}
+.third-container{
+    padding: 40px;
+}
+#fourth-container{
+    background-color: #585656;
+}
+.services{
+    border-radius: 500px 0px 0px 500px;
+}
+.what-we-do{
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+    width: 330px;
+    /* padding: 30px 90px 30px 90px; */
+    padding: 25px 25px 25px 25px;
+}
+.arrow{
+    margin-left: 5rem;
+}
+.fifth-container{
+    padding: 2rem;
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 100%;
+}
+.sixth-container{
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 2rem;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 40px;
+}
+.team{
+    background-color: #f1f1f1;
+    padding:40px 30px 40px 30px;
+    /* width: 100%; */
+    /* height: 300px; */
+}
+.footer{
+    background-color: black;
+    padding: 10px 90px 60px 90px;
+    color: white;
+    line-height: 2.5rem;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.foot-link h4 ul li a{
+    text-decoration: none;
+}
+#horizontal-rule{
+    margin-top: 50px;
+}
+.foot-text{
+    color: #fff;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 20px;
+}
