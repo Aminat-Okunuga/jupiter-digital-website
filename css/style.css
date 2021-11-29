@@ -1,10 +1,11 @@
-body{
+* {
     margin: 0;
     padding: 0;
-}
-* {
     box-sizing: border-box;
-  }
+}
+body {
+    overflow-x: hidden;
+}
 body a{
     text-decoration: none;
     color: #fff;
@@ -34,15 +35,8 @@ body a{
 /* #menu-column ul li{
     display: inline;
 } */
-ul .topnav{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-
-}
-ul.topnav li {
-    float: right;
+.navbar-brand img {
+    height: 50px;
 }
 
 ul.topnav li a {
@@ -51,6 +45,11 @@ ul.topnav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+ul.topnav li a:hover {
+    color: #fff;
 }
 ul.topnav li a:hover:not(.active) {
     background-color: #f5749b;
@@ -59,75 +58,35 @@ ul.topnav li a:hover:not(.active) {
 ul.topnav li a.active {
     background-color: #f72a90;
 }
-/* responsiveness */
-@media screen and (max-width: 600px) {
-    ul.topnav navbar image-right, 
-    ul.topnav li {float: none;}
-  }
-@media screen and (max-width: 400px) {
-    ul.topnav navbar image-right, 
-    ul.topnav li {float: none;}
-  }
-
-
-/* ul{
-    position: fixed;
-    top: 0;
-    width: 100%;
-} */
-li a{
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-}
-/* #menu-column ul li a{
-    
-    color: aliceblue;
-    text-decoration: none;
-} */
-ul{
-    list-style-type: none;
-    overflow: hidden;
-}
-/* li a:hover{
-    background-color: rgb(220, 220, 248);
-} */
-
-/* #list-block{
-    padding: 5px;
-    margin-top: 8px;
-} */
-/* #list-block li{ */
-    /* padding-left: 80px; */
-/* } */
 #banner img{
     width: 100%;
 }
 .banner-section{
     width: 100%;
 }
+.carousel-inner > .carousel-item > img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+}
 .second-container{
     background-color: #585656;
     padding: 67px;
-    width: 100%;
+    margin: 100px 0;
 }
 #second-container{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;
 }
-.second-div-box{
-    width: 400px;
+.core-values{
     padding: 90px 50px 100px 50px;
     color: #fff;
+    text-align: center;
 }
-/* .second-div-box h3{
-    font-size: 
-} */
+
 #email-marketing{
     background-color: rgb(24, 24, 24);
-    /* width: 25%; */
 }
 #market-analysis{
     background-color: rgb(243, 79, 79);
@@ -138,25 +97,19 @@ ul{
 .third-container{
     padding: 40px;
 }
-#fourth-container{
-    /* background-color: #585656; */
-}
-.services{
-    border-radius: 500px 0px 0px 500px;
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .what-we-do{
     background-color: rgb(24, 24, 24);
     color: #fff;
-    /* width: 330px; */
-    width: 100%;
-    /* padding: 30px 90px 30px 90px; */
-    padding: 25px 25px 25px 25px;
+    padding: 25px;
+    border-radius: 500px;
+
 }
-@media screen and (max-width:600px) {
-    .what-we-do{
-        margin-top: 8%;
-    }
-}
+
 .arrow{
     margin-left: 5rem;
 }
@@ -171,9 +124,7 @@ ul{
     margin-left: 10px;
     padding: 2rem;
 }
-h2{
-    font-size: 50px;
-}
+
 h3{
     font-size: 40px;
 }
@@ -185,12 +136,11 @@ h3{
 }
 .footer{
     background-color: black;
-    padding: 10px 90px 60px 90px;
+    padding-top: 50px;
+    padding-bottom:  50px;
     color: white;
     line-height: 2.5rem;
     margin-top: 50px;
-    margin-bottom: 10px;
-    width: 100%;
 }
 .foot-link h4 ul li a{
     text-decoration: none;
@@ -200,30 +150,9 @@ h3{
 }
 .foot-text{
     color: #fff;
-    text-align: center;
-    margin-left: 40px;
-    margin-right: 20px;
 }
-
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
+.sitemap p {
+    text-align: right;
 }
 
 
