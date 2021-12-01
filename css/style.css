@@ -13,28 +13,7 @@ body a{
 .navbar{
     background-color: #E62E64;
 }
-/* .navbar{
-    background-color: #E62E64;
-    padding: 13px;
-    text-align: center;
-    width: 100%;
-} */
-/* #nav-row{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-} */
 
-/* #menu-column{
-    display: inline;
-    color: aliceblue;
-    font-weight: 700;
-    font-size: 1.2rem;
-} */
-/* #menu-column ul li{
-    display: inline;
-} */
 .navbar-brand img {
     height: 50px;
 }
@@ -72,7 +51,7 @@ ul.topnav li a.active {
 .second-container{
     background-color: #585656;
     padding: 67px;
-    margin: 100px 0;
+    margin: 100px 0 50px 0;
 }
 #second-container{
     display: flex;
@@ -107,7 +86,7 @@ ul.topnav li a.active {
     color: #fff;
     padding: 25px;
     border-radius: 500px;
-
+    margin-bottom: 20px;
 }
 
 .arrow{
@@ -115,7 +94,7 @@ ul.topnav li a.active {
 }
 .fifth-container{
     padding: 2rem;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 10px;
     width: 100%;
 }
@@ -128,11 +107,14 @@ ul.topnav li a.active {
 h3{
     font-size: 40px;
 }
+.what-we-do h5 {
+    display: flex;
+    justify-content: space-between;
+}
 .team{
     background-color: #f1f1f1;
     padding:40px 30px 40px 30px;
-    /* width: 100%; */
-    /* height: 300px; */
+    
 }
 .footer{
     background-color: black;
@@ -154,25 +136,91 @@ h3{
 .sitemap p {
     text-align: right;
 }
+.second-container h2,
+.fifth-container h1,
+.sixth-container h1 {
+    font-size: 32px !important;
+    margin-bottom: 0 !important;
+}
+.second-container h3,
+.fifth-container h2,
+.sixth-container h2 {
+    font-size: 28px !important;
+}
 
-
-/* For mobile phones: */
-/* [class*="col-"] {
-    width: 100%;
-  } */
-  
-  /* @media only screen and (min-width: 768px) { */
-    /* For desktop: */
-    /* .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  } */
+/* responsiveness */
+@media(max-width: 768px){
+    section.container-fluid {
+        overflow-x: hidden;
+    }
+    .second-container {
+        padding: 20px;
+    }
+    .services{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    #recent-project img,
+    .team img{
+        width: 100%;
+    }
+    .fifth-container,
+    .sixth-container {
+        padding: 20px;
+        margin-left: 0;
+    }
+    .second-container h2,
+    .fifth-container h1,
+    .sixth-container h1 {
+        font-size: 32px !important;
+        margin-bottom: 0 !important;
+    }
+    .second-container h3,
+    .fifth-container h2,
+    .sixth-container h2 {
+        font-size: 28px !important;
+    }
+}
+@media(max-width: 600px){
+    section.container-fluid {
+        overflow-x: hidden;
+    }
+    .second-container {
+        padding: 20px;
+    }
+    .fifth-container,
+    .sixth-container {
+        padding: 20px;
+        margin-left: 0;
+    }
+    .second-container h2,
+    .fifth-container h1,
+    .sixth-container h1 {
+        font-size: 32px !important;
+        margin-bottom: 0 !important;
+    }
+    .second-container h3,
+    .fifth-container h2,
+    .sixth-container h2 {
+        font-size: 28px !important;
+    }
+    #second-container .row {
+        margin-top: 0 !important;
+    }
+    .services .what-we-do {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #recent-project img,
+    .team img{
+        width: 100%;
+    }
+    .team {
+        padding: 10px 20px;
+    }
+    .foot-text p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
